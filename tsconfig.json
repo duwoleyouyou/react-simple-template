@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5",
+    "module": "commonjs",                      
+    "allowJs": true,
+    "strict": true,
+    "baseUrl": "./",                      
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,                    
+    "forceConsistentCasingInFileNames": true,
+  },
+  "exclude": ["node_modules","public"],
+  "include": ["src/**/*","typed-css.d.ts"]
+}
